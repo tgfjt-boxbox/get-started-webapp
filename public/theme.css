@@ -124,7 +124,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/www.jpg) no-repeat bottom center scroll;
+  background: url("https://cdn.glitch.com/8a475e6a-b486-416b-881d-ce20132fef57%2Fwww.jpg?1492068204839") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -224,7 +224,7 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/bg.png) no-repeat center center scroll;
+  background: url("https://cdn.glitch.com/8a475e6a-b486-416b-881d-ce20132fef57%2Fbg.png?1492068205237") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -292,23 +292,4 @@ footer {
 }
 footer p {
   margin: 0;
-}
-::-moz-selection {
-  text-shadow: none;
-  background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
-}
-::selection {
-  text-shadow: none;
-  background: #fcfcfc;
-  background: rgba(255, 255, 255, 0.2);
-}
-img::selection {
-  background: transparent;
-}
-img::-moz-selection {
-  background: transparent;
-}
-body {
-  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
