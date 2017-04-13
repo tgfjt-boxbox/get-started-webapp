@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>Welcome!</title>
+  <meta charset="utf-8">
+
+  <script>
+    console.log('hello');
+    document.addEventListener('DOMContentLoaded', function () {
+      console.log('DOMContentLoaded!')
+    }, false);
+  </script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/style.css">
+
+  <script>
+    console.log('world');
+  </script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          Menu <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">
+          <i class="fa fa-play-circle"></i> <span class="light">Start</span> Web!
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden">
+            <a href="#page-top"></a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#markup">Markup</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Intro Header -->
+  <header class="intro">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h1 class="brand-heading">Get Started</h1>
+            <p class="intro-text">何から始めれば良いかというと難しいけど、何かいじるところからやってみるのが手っ取り早いのだろうか</p>
+            <a href="#about" class="btn btn-circle page-scroll">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>About Web</h2>
+        <ol>
+          <li>ブラウザがURLを指定</li>
+          <li>URL→ドメイン→IPアドレス（サーバー特定）</li>
+          <li>IPアドレス(PORT、80番)からWebサーバ</li>
+          <li>Webサーバがファイルを返す</li>
+          <li>ファイルの内、HTMLはブラウザがパースして描画する</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- Markup Section -->
+  <section id="markup" class="content-section text-center">
+    <div class="markup-section">
+      <div class="container">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2>Markup</h2>
+          <p>コンピュータに渡す文書構造をアレする</p>
+          <a href="https://validator.w3.org/" class="btn btn-default btn-lg">Visit: Markup Validation Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container content-section text-center">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Contact me</h2>
+        <p>Feel free to email me to just say hello!</p>
+        <p><a href="#mailto:">dame@example.com</a>
+        </p>
+        <ul class="list-inline banner-social-buttons">
+          <li>
+            <a href="https://github.com/tgfjt" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; Your Website 2016</p>
+    </div>
+  </footer>
+
+  <!--jQuery-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <!--BootStrap-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+  <script src="/client.js"></script>
+</body>
+
+</html>
